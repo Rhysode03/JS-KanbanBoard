@@ -22,7 +22,6 @@ const create_item = () => {
   item.draggable = true;
   item.addEventListener('dragstart', event => event.dataTransfer.setData('text' = event.target.id));
   
-  }
 };
 
 document.querySelectorAll('.drop').forEach(element => {
