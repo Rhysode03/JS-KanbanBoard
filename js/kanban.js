@@ -43,6 +43,6 @@ const create_item = () => {
 
 document.querySelectorAll('.drop').forEach(element => {
   element.addEventListener('drop', event => {
-
+    event.preventDefault();
   })
 });
