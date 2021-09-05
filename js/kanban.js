@@ -42,7 +42,7 @@ const create_item = () => {
 };
 
 document.querySelectorAll('.drop').forEach(element => {
-  element.addEventListener('.drop', () => {
-    
+  element.addEventListener('drop', event => {
+
   })
 });
